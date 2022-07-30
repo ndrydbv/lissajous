@@ -1,5 +1,6 @@
-# Lissajous Curve
-Lissajous Curves, or Lissajous Figures, are beautiful patterns formed when two harmonic vibrations along perpendicular lines are superimposed. 
+# Lissajous Curves
+
+Lissajous curves, or Lissajous figures, are beautiful patterns formed when two harmonic vibrations along perpendicular lines are superimposed. 
 
 It is a graph of the following two parametric equations:
 
@@ -9,7 +10,7 @@ $y=Bsin(bt)$
 The [user interface](https://ndrydbv.github.io/lissajous) allows you to modify $a$ and $b$ parameters and see how the graph is affected.
 
 
-*Lissajous figures are sometimes used in graphic design as logos. So, Facebook's rebrand into Meta Platforms is also a Lissajous Curve, echoing the shape of a capital letter M, described by equations:*
+*Lissajous figures are sometimes used in graphic design as logos. So, Facebook's rebrand into Meta Platforms is also a Lissajous curve, echoing the shape of a capital letter M, described by equations:*
 
 $x=Asin(t+{π \over 20})$ &emsp;
 $y=Bsin(-2t)$ 
