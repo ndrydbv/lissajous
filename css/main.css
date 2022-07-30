@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.controlsContainer {
+  background-color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 125px;
+  height: 100%;
+  background-color: #28282b;
+  box-sizing: border-box;
+  border-right: 0px solid black;
+}
+
+.title {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  color: #d3d3d3;
+  font-weight: normal;
+  letter-spacing: 2px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 8px;
+}
+
+.controlPanel {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
+
+.sliders {
+  display: flex;
+  flex-direction: column;
+}
+
+.control {
+  margin-bottom: 20px;
+}
+
+.control.reset {
+  padding-top: 20px;
+}
+
+.control.reset button {
+  background-color: #d3d3d3;
+  border: none;
+  color: black;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.control.colorize button {
+  background-color: #d3d3d3;
+  border: none;
+  color: black;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.label {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #d3d3d3;
+  letter-spacing: 1px;
+}
+
+#canvasParent {
+  width: 100%;
+  height: 100%;
+  background-color: #777;
+  background-color: #28282b;
+}
+
+#a,
+#b,
+#c,
+#d,
+#speed {
+  width: 80px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #777;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04aa6d;
+  cursor: pointer;
+}

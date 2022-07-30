@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lissajous Curve</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="controlsContainer">
+        <div class="title">Lissajous</div>
+        <div class="controlPanel">
+          <div class="sliders"></div>
+
+          <div class="control">
+            <h4 class="label">A</h4>
+            <input type="range" name="a" id="a" class="slider" min="0" max="25" value="12.25" step="0.05" onchange="reset()" />
+          </div>
+          <div class="control">
+            <h4 class="label">B</h4>
+            <input type="range" name="b" id="b" class="slider" min="0" max="25" value="24.6" step="0.05" onchange="reset()" ondrag="reset()" />
+          </div>
+          <div class="control">
+            <h4 class="label">Speed</h4>
+            <input type="range" name="speed" id="speed" class="slider" min="0.05" max="1" value=".5" step="0.025" />
+          </div>
+
+          <div class="buttons">
+            <div class="control reset">
+              <button class="label" onclick="reset()">Reset</button>
+            </div>
+            <div class="control colorize">
+              <button class="label" id="colorizeButton" onclick="toggleColorize()">Colorize</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="canvasParent">
+        <canvas id="myCanvas"></canvas>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
+  </body>
+</html>
