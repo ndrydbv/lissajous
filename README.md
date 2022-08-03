@@ -1,6 +1,7 @@
 # Lissajous Curves
 
-Lissajous curves, or Lissajous figures, are beautiful patterns formed when two harmonic vibrations along perpendicular lines are superimposed. They are the resulting graph of the following two parametric equations:
+Lissajous curves, or Lissajous figures, are beautiful patterns formed when two harmonic vibrations along perpendicular lines are superimposed. 
+They are the resulting graph of the following two parametric equations:
 
 $x=Asin(at+δ)$ &emsp;
 $y=Bsin(bt)$ 
